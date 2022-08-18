@@ -1,0 +1,14 @@
+package bookexample.chapter10;
+
+public class SuperSubCatch {
+    public static void main(String[] args) {
+        try {
+            int a = 0;
+            int b = 42 / a;
+            System.out.println("Перехват исключений общего класса Exception.;");
+
+        } catch (ArithmeticException e) {
+            System.out.println("Этoт код вообще недостижим.");
+        }
+    }
+}

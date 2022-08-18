@@ -1,0 +1,2 @@
+H e llo from JAVA 
+Hello from JAVA line2!!!!!!!
